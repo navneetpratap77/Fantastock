@@ -1,0 +1,136 @@
+
+body,html{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container-fluid{
+  max-width: 1230px!important;
+}
+.upcoming-matches{
+  background: #fff;
+}
+.nav-pills{
+  border-bottom: 1px solid #ccc;
+}
+.nav-pills .nav-link{
+  padding: 8px 40px;
+  border-right: none;
+  border-radius: 0;
+  font-size: 18px;
+  font-weight: bold!important;
+  text-transform: uppercase;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.nav-pills .nav-link.active {
+  background: #FFFFFF;
+  border-bottom: 2px solid #36C4FF;
+color: #36C4FF!important;
+}
+.four_pills .nav-item a{
+  padding: 10px 50px!important;
+ border: 1px solid#ccc;
+ margin-right: 2px;
+}
+.four_pills .nav-pills .nav-link.active {
+  background: #FFFFFF;
+border: 1px solid #36C4FF;
+color: #36C4FF!important;
+}
+.four_pills .nav-item{
+  box-shadow: none!important;
+}
+
+
+.card-header{
+  background: #F3F3F3;
+  border: none!important;
+  border-left:none!important;
+  position: relative;
+}
+.accordion_header .btn-link.active{
+  color: #36C4FF;
+}
+.card-header .btn1{
+padding: .375rem 0px !important;
+color: #484848 !important;
+text-decoration: none;
+font-size: 18px;
+font-weight: 500;
+width: 100%;
+text-align: left;
+background-image: url(../img/faq-arrow.png);
+background-position: right;
+background-repeat: no-repeat;
+cursor: pointer;
+}
+
+.btn1 {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+@media (min-width: 250px) and (max-width: 991.98px) {
+  .mobile_view{
+    height: 20px;
+    background: #36C4FF;
+  }
+  .header-bar{
+    background-image: none;
+    padding-bottom: 0px!important;
+   padding-top: 0px!important;
+  }
+}
+@media (max-width: 576px){
+  .top_banner h1{
+    font-size: 20px;
+  }
+  .fantasy_points h3{
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .fantasy_points p{
+    font-size: 12px;
+  }
+  .nav-pills .nav-link{
+    padding: 8px 20px;
+    border-right: none;
+    border-radius: 0;
+    font-size: 12px;
+    font-weight: bold!important;
+    text-transform: uppercase;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+  .nav-pills .nav-link.active {
+    background: #FFFFFF;
+    border-bottom: 2px solid #36C4FF;
+  color: #36C4FF!important;
+  }
+  .four_pills .nav-item a{
+    padding: 10px 11px!important;
+   border: 1px solid#ccc!important;
+   margin-right: 5px;
+  }
+  .accordion_header .btn-link{
+    font-size: 12px;
+    font-weight: 600;
+  }
+}

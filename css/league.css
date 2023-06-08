@@ -1,0 +1,675 @@
+
+
+body,html{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container-fluid{
+  max-width: 1230px!important;
+}
+.league_banner img{
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  width: 100%;
+  height: 80%;
+}
+
+/*league content start*/
+
+#league_content{
+  margin: 3rem 0;
+}
+#league_content h2{
+  font-weight: bold;
+
+line-height: 38px;
+
+color: #2A3552;
+}
+#league_content h2 span{
+  color: #36C4FF!important;
+}
+#league_content p{
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 163.6%;
+  text-align: justify;
+  color: #2A3552;
+}
+#league_content a{
+  padding: 14px 50px;
+  color: #fff;
+  background: #36C4FF;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 1px solid #36C4FF!important;
+}
+#league_content a:hover{
+  background-color: #fff!important;
+  color: #36C4FF!important;
+  border: 1px solid #36C4FF!important;
+  transition: 500ms;
+}
+/*league content end*/
+
+
+/*four_column start*/
+#four-column{  
+background: #012257!important;
+}
+.mother-box4 div{
+  background: #063B7C;
+border: 0.2px solid #0a458d!important;
+border-radius: 3px;
+margin-bottom: 0px!important;
+}
+
+.mother-box4 div:hover{
+  background: #36C4FF;
+border: 0.2px solid #0a458d!important;
+transition: 400ms;
+}
+.boxes h4{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.boxes p{
+  color: #FFFFFF!important;
+  font-size: 16px!important;
+  padding-top: 0!important;
+  padding-bottom: 10px!important;
+}
+
+
+/*four_column end*/
+
+/*INDIAN T20 LEAGUE TEAMS start*/
+#league_team{
+  margin: 60px 0 10px;
+}
+#league_team h1, #league_team h2{
+  font-weight: bold;
+  font-size: 2.7rem;
+  line-height: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #091932;
+}
+#league_team h1 span, #league_team h2 span{
+  color: #36C4FF!important;
+}
+#league_team p{
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 163.6%;
+  text-align: center;
+  color: #2A3552;
+  padding: 20px 40px;
+
+}
+
+/*INDIAN T20 LEAGUE TEAMS end*/
+
+.team {
+  position: relative;
+}
+.blank1{
+  height: 14px;
+  background: #FFE32D;
+  border-top-right-radius: 15px;
+}
+.blank2{
+  height: 14px;
+  background: #FF714B;
+  border-top-right-radius: 15px;
+}
+.blank3{
+  height: 14px;
+  background: #2C83F3;
+  border-top-right-radius: 15px;
+}
+.blank4{
+  height: 14px;
+  background: #F2CDD1;
+  border-top-right-radius: 15px;
+}
+.blank5{
+  height: 14px;
+  background: #101F4E;
+  border-top-right-radius: 15px;
+}
+.blank6{
+  height: 14px;
+  border-top-right-radius: 15px;
+  background: #F597DC;
+}
+.blank7{
+  height: 14px;
+  background: #392B2B;
+  border-top-right-radius: 15px;
+}
+.blank8{
+  height: 14px;
+  background: linear-gradient(270deg, #F3C63A 1.57%, #FFC328 27.36%, #E6C834 68.55%, #FFF14A 100%);
+  border-top-right-radius: 15px;
+}
+
+.bottom_hr{
+  margin-top: 0px;
+opacity: 0.5;
+}
+.match_teams{
+  margin-bottom: 20px;
+}
+.all_content{
+  padding-top: 20px;
+}
+.team{
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.hr1{
+  background: #fff;
+  opacity: .5;
+}
+.team1{
+  background: linear-gradient(47.04deg, #5F291D -0.42%, #F8D80A 85.22%)!important;
+ 
+}
+
+.team2 {
+  background: linear-gradient( 47.04deg, #2B2725 -0.42%, #FF3A18 85.22%);
+
+}
+
+.team3 {
+  background: linear-gradient(47.04deg, #282968 -0.42%, #256DC8 85.22%);
+}
+
+.team4 {
+  background: linear-gradient(47.04deg, #C6BCBD -12.65%, #A60314 85.22%);
+}
+
+.team5 {
+  background: linear-gradient(47.04deg, #0C1738 -0.42%, #1B3996 85.22%);
+}
+
+.team6 {
+  background: linear-gradient(47.04deg, #0E2B6A -0.42%, #D977BF 85.22%);
+}
+
+.team7 {
+  background: linear-gradient(47.04deg, #040F1A 5.12%, #BF151F 85.22%);
+}
+
+.team8 {
+  background: linear-gradient(47.9deg, #BAAD58 -55.63%, #482B6C 82.19%);
+}
+
+.team {
+  display: block;
+  /*width: 24%;*/
+  height: auto;
+}
+.team9 {
+  background: linear-gradient(47.04deg, #5c2a09 5.12%, #f68b24 85.22%);
+}
+.team10 {
+  background: linear-gradient(47.04deg, #e1c761 5.12%, #132743 85.22%);
+}
+.blank9 {
+  height: 14px;
+  background: linear-gradient(270deg, #f68b24 1.57%, #f68b24 27.36%, #f68b24 68.55%, #f68b24 100%);
+  border-top-right-radius: 15px;
+}
+.blank10 {
+  height: 14px;
+  background: linear-gradient(270deg, #132743 1.57%, #132743 27.36%, #132743 68.55%, #132743 100%);
+  border-top-right-radius: 15px;
+}
+.overlay9 {
+  background: #f68b24!important;
+  border-top-right-radius: 15px;
+}
+.overlay10 {
+  background: #132743!important;
+  border-top-right-radius: 15px;
+}
+.info {text-align: right; width: 100%}
+.info h3{
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  padding-right: 10px;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+.info .clear_both{clear: both;}
+
+.info .cap_box{width:82px; float: right; margin-right: 10px;}
+
+.info .cap_box h6{
+background: #FFF;
+padding: 5px 10px;
+width: 100%;
+border-radius: 10px 0 10px 0;
+border: 2px #ccc solid;
+font-weight: 600;
+font-size: 14px;
+}
+.info h2{
+  font-size:24px;
+  font-weight: bold;
+  color: #fff;
+  padding-right: 10px;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+.info p{
+  font-size:14px;
+  color: #fff;
+  padding-right: 10px;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+.info p span{font-weight: 600 !important;}
+
+.player_row1{padding-left: 10px;}
+.player_row2{padding-right: 10px;}
+
+/********************Indian T20 League***************/
+
+.info1 {text-align: left; width: 100%}
+.info1 h3{
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  padding-left: 10px;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+.info1 .clear_both{clear: both;}
+
+.info1 .cap_box{width:82px; float: left; margin-left: 10px;}
+
+.info1 .cap_box h6{
+background: #FFF;
+padding: 5px 10px;
+width: 100%;
+border-radius: 10px 0 10px 0;
+border: 2px #ccc solid;
+font-weight: 600;
+font-size: 14px;
+}
+.info1 h2{
+  font-size:24px;
+  font-weight: bold;
+  color: #fff;
+  padding-left: 10px;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+.info1 p{
+  font-size:14px;
+  color: #fff;
+  padding-left: 10px;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+.info1 p span{font-weight: 600 !important;}
+
+/********************BOX RIGHT***************/
+
+.title_won{margin-top:-5px; }
+
+.title_won p{
+  font-size:14px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 10px !important;
+  text-align: center;
+}
+.title_won p span{font-weight: 600 !important;}
+
+.player_bg{
+  background-image: url(../img/player-bg.png);
+  width: 100%
+  background-repeat:no-repeat;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0px;
+  transition: .5s ease;
+  background: #FF32ED;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.team:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.overlay img{
+  width: 114px;
+  height: 114px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.overlay hr{
+  background: #fff!important;
+}
+.overlay h5{
+  font-weight: 700;
+  color: #fff;
+  padding-top: 10px;
+}
+.overlay p{
+  font-weight: 700;
+  color: #fff;
+  line-height: 30px;
+}
+
+.overlay1{
+  background: #DABF10!important;
+border-top-right-radius: 15px;
+}
+.overlay2{
+  background: #FC6239!important;
+border-top-right-radius: 15px;
+}
+.overlay3{
+  background: #2C83F3!important;
+border-top-right-radius: 15px;
+}
+.overlay4{
+  background: #890210!important;
+border-top-right-radius: 15px;
+}
+.overlay5{
+  background: #101F4E!important;
+border-top-right-radius: 15px;
+}
+.overlay6{
+  background: #EB71CB!important;
+border-top-right-radius: 15px;
+}
+.overlay7{
+  background: #392B2B!important;
+border-top-right-radius: 15px;
+}
+.overlay8{
+  background: #F4B920!important;
+border-top-right-radius: 15px;
+}
+
+/*top_winners start*/
+
+.top_winner{
+  background-image: url(../img/slider-league.svg)!important;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 422px;
+}
+
+
+/*end FAQ*/
+
+
+.image-slider{
+  background: url(../img/slider-league.svg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ height: auto!important;
+}
+.image-slider h1{
+padding-top: 16px!important;
+padding-bottom: 20px!important;
+font-weight: 900!important;
+font-size: 30px;
+text-align: center;
+text-transform: uppercase;
+color: #36C4FF;
+background-image: url(../img/head-bg.png);
+background-position: center;
+background-repeat: no-repeat;
+margin-bottom: 50px!important;
+margin: auto;
+}
+
+.carousel-control-prev-icon {
+  background-image: url(../img/btm-arrow-l.png) !important;
+ }
+ 
+ .carousel-control-next-icon {
+   background-image: url(../img/btm-arrow-r.png) !important;
+ }
+.carousel-control-next-icon, .carousel-control-prev-icon{width: 50px !important; height: 50px !important;}
+
+.testimonial-item{
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat!important;
+  border: none!important;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 7px;
+padding: 20px!important;
+max-width:80%!important;
+margin-left: auto;
+margin: auto;
+
+}
+.testimonial-client{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #E1E1E1;
+  padding-right: 10px;
+ flex-basis: 45%;
+}
+.testimonial-client img{
+  width: auto!important;
+  height: 140px!important;
+  position: relative;
+}
+.client-img span{
+  background: url(../img/winner_text_back.svg) no-repeat;
+  position: fixed;
+  bottom: -120px;
+  width: 190px;
+  height: 100%;
+}
+.client-winning span {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #0E6FA4;
+}
+.client-winning{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: #2A3552;
+}
+
+
+.testimonial-text{
+  padding: 0px 0px 0px 1.2rem;
+  position: relative;
+  flex-basis: 55%;
+}
+
+.testimonial-text p{  
+  padding: 0!important;
+ margin-bottom: 0px!important;
+  font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+color: #2A3552;
+}
+.testimonial-text span{
+font-size: 30px;
+line-height: 20px;
+color: #36C4FF;
+} 
+
+/*End testimonial*/
+
+@media (max-width: 575.98px) {
+#league_content h2{
+  font-size: 16px!important;
+}
+#league_content p{
+  font-size: 12px!important;
+}
+.mother-box4 h4{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 14px;
+  line-height: 16px;
+  justify-content: center;
+  align-items: center;
+}
+.mother-box4 p{
+  font-size: 12px!important;
+}
+#four-column img {
+  padding: 0px 0px!important;
+}
+.mother-box4 > div{
+  margin-bottom: 15px!important;
+  margin-top: 15px!important;
+}
+.content_team h1{
+  font-size: 16px!important;
+  text-align: left!important;
+}
+.content_team p{
+  font-size: 12px!important;
+  text-align: left!important;
+  padding: 5px 0px!important;
+}
+.image-slider h1{
+  font-size: 16px;
+}
+.testimonial-text p{
+  font-size: 14px;
+  line-height: 22px;
+}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .mother-box4 > div{
+    margin-bottom: 30px!important;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+.mother-box4 .child-box-4 h4{
+ text-align: center;
+  line-height: 24px;
+  padding-bottom: 5px;
+}
+.mother-box4 .child-box-4 p{
+  margin-bottom: 0px;
+  padding-bottom: 0px!important;
+  line-height: 18px!important;
+}
+}
+
+/* Start of 23-02-2022 */
+
+.icon_ipl_bxl img{
+  width:110px;
+  height:250px;
+}
+.coll2{
+-webkit-box-flex: 0;
+-ms-flex: 0 0 25%;
+flex: 0 0 25%;
+max-width: 20%;
+}
+.collg2{
+-webkit-box-flex: 0;
+-ms-flex: 0 0 25%;
+flex: 0 0 25%;
+max-width: 20%;
+}
+.container_my {
+max-width: 1430px!important;
+margin:auto;
+}
+
+@media (min-width: 320px) and (max-width: 767.98px) {
+.collg2{
+-webkit-box-flex: 0;
+-ms-flex: 0 0 100%;
+flex: 0 0 100%;
+max-width: 100%;
+}
+.collg2{
+-webkit-box-flex: 0;
+-ms-flex: 0 0 100%;
+flex: 0 0 100%;
+max-width: 100%;
+}
+.container_my {
+padding: 20px;
+}
+.mobile_boxes{
+  width: 50% !important;
+}
+}
+@media (min-width: 768px) and (max-width: 1427px) {
+.collg2{
+-webkit-box-flex: 0;
+-ms-flex: 0 0 100%;
+flex: 0 0 100%;
+max-width: 50%;
+}
+.collg2{
+-webkit-box-flex: 0;
+-ms-flex: 0 0 100%;
+flex: 0 0 100%;
+max-width: 50%;
+}
+.container_my {
+padding: 60px;
+}
+}
+/* End of 23-02-2022 */

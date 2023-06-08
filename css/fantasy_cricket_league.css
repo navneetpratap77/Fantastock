@@ -1,0 +1,119 @@
+
+body,html{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container-fluid{
+  max-width: 1230px!important;
+}
+
+.banner_play{
+  padding: 100px 0 150px 0;
+}
+.banner_play h1{
+  font-size: 3rem;
+}
+
+.page1_content{
+  margin-top: 30px;
+}
+.page1_content h2{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 44px;
+  color: #36C4FF;
+}
+
+.page1_content p{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 153.6%;
+  text-align: justify;
+  color: #2A3552;
+}
+
+.accordion-div{
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+//media queries//
+
+
+@media (max-width: 399.98px) {
+
+   {
+    width: 100px!important;
+  }
+}
+
+
+@media (max-width: 576px) {
+.banner_play{
+  padding: 50px 0;
+}
+.banner_play img{
+  padding-top: 50px;
+}
+.page1_content h2{
+  font-size: 16px;
+  line-height: 28px;
+}
+.page1_content p{
+  font-size: 12px;
+}
+
+  
+.accordion-div .h2{
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.card-header {
+  padding: 15px 5px 15px 5px;
+}
+
+span.pr-3{
+  padding-top: 10px!important;
+  font-size: 14px!important;
+}
+.card-header button{
+   font-size: 14px!important;
+   word-break: keep-all!important;
+
+}
+.card-body{
+  padding: 5px 10px;
+}
+.answer b{
+  font-size: 14px;
+  padding-right: 0!important;
+}
+.answer p{
+  font-size: 12px;
+}
+
+}
+
+
+
+
+
+@media (min-width: 250px) and (max-width: 991.98px) {
+  .mobile_view{
+    height: 20px;
+    background: #36C4FF;
+  }
+  .header-bar{
+    background-image: none;
+    padding-bottom: 0px!important;
+   padding-top: 0px!important;
+  }
+}

@@ -1,0 +1,149 @@
+body {
+      font-family: poppins;
+      background: #e8f1f7;
+    }
+
+    .header {
+      background: linear-gradient(45deg, #0676DA, #3DA8F6);
+      padding: 19px;
+      box-shadow: 0 4px 6px #ccc;
+      color: #fff;
+      font-weight: 500;
+      position: fixed;
+      top: 0;
+      left: 0;
+  }
+  /*.content_wrapper {
+      margin-top: 80px;
+  }*/
+    button#pills-home-tab {
+      background: #d8e1ef;
+      border-radius: 65px;
+      color: #000;
+      margin: 1px;
+    }
+
+    button#pills-Second-tab {
+      border-radius: 65px;
+      background: #d8e1ef;
+      color: #000;
+      margin: 1px;
+    }
+    
+    button#pills-fullinning-tab {
+      border-radius: 65px;
+      background: #d8e1ef;
+      color: #000;
+      margin: 1px;
+    }
+
+    button#pills-more-tab {
+      border-radius: 65px;
+      background: #d8e1ef;
+      color: black;
+      margin: 1px;
+    }
+
+    button#pills-Live-tab {
+      background: #d8e1ef;
+      border-radius: 65px;
+      color: #000;
+      margin: 1px;
+    }
+
+    .button#pills-more-tab {
+      background: #d8e1ef;
+      border-radius: 65px;
+      color: #000;
+      margin: 5px;
+    }
+
+    button#pills-Offers-tab {
+      background: #d8e1ef;
+      border-radius: 65px;
+      color: #000;
+      margin: 1px;
+    }
+
+    button#pills-Fantasy-tab {
+      background: #d8e1ef;
+      border-radius: 65px;
+      color: #000;
+      margin: 1px;
+    }
+
+    button#pills-fair-tab {
+      background: #d8e1ef;
+      border-radius: 65px;
+      color: #000;
+      margin: 1px;
+    }
+
+    button#pills-Cricket-tab {
+      background: #d8e1ef;
+      border-radius: 65px;
+      color: #000;
+      margin: 1px;
+    }
+
+    button#pills-Football-tab {
+      background: #d8e1ef;
+      border-radius: 65px;
+      color: #000;
+      margin: 1px;
+    }
+
+    button#pills-refer-tab {
+      background: #d8e1ef;
+      border-radius: 65px;
+      color: #000;
+      margin: 1px;
+    }
+
+    .nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
+      color: #fff !important;
+      background: linear-gradient(45deg, #0676DA, #3DA8F6) !important;
+    }
+    p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #484848;
+}
+    .nav {
+      display: inherit;
+      flex-wrap: wrap;
+      padding-left: 0;
+      margin-bottom: 0;
+      list-style: none;
+    }
+
+    li.nav-item {
+      display: inline-block;
+    }
+
+    .nav-link {
+      padding: 0.3rem 0.5rem !important;
+    }
+
+    div#pills-Offers {
+      margin-top: 30px;
+    }
+
+    .tab-pane h5 {
+      font-size: 29px;
+      border-bottom: 1px solid #cccc;
+      display: inline-block;
+    }
+
+    @media (min-width:320px) and (max-width:767px) {
+      .content_wrapper ul li button {
+        font-size: 14px;
+      }
+
+      .tab-pane h5 {
+        font-size: 22px;
+        border-bottom: 1px solid #cccc;
+        display: inline-block;
+      }
+    }
